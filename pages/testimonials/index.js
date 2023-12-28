@@ -5,6 +5,13 @@ import TestimonialSlider from "../../components/TestimonialSlider";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 
+// meta data
+export const metadata = {
+  title: "Hani Abdallah - Testimonials",
+  description:
+    "Welcome To 'my personal portfolio' Discover best techs in the whole world!",
+};
+
 const Testimonials = () => {
   return (
     <section className="h-full bg-primary/30 text-center py-32">

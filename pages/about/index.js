@@ -101,6 +101,14 @@ const aboutData = [
 // framer motion and variants
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
+
+// meta data
+export const metadata = {
+  title: "Hani Abdallah - About",
+  description:
+    "Welcome To 'my personal portfolio' Discover best techs in the whole world!",
+};
+
 const About = () => {
   const [index, setIndex] = useState(0);
   return (

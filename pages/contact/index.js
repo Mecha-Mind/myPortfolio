@@ -5,6 +5,13 @@ import { BsArrowRight } from "react-icons/bs";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 
+// meta data
+export const metadata = {
+  title: "Hani Abdallah - Contact",
+  description:
+    "Welcome To 'my personal portfolio' Discover best techs in the whole world!",
+};
+
 const Contact = () => {
   return (
     <section className="h-full bg-primary/30">

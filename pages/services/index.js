@@ -7,6 +7,13 @@ import Circles from "../../components/Circles";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../variants";
 
+// meta data
+export const metadata = {
+  title: "Hani Abdallah - Services",
+  description:
+    "Welcome To 'my personal portfolio' Discover best techs in the whole world!",
+};
+
 const Services = () => {
   return (
     <div className="h-full py-36 flex items-center bg-primary/30">
